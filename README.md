@@ -17,6 +17,7 @@
 
 #### Nesta versão 2.0, foram inplementadas/adicionadas estilizações com CSS de acordo com as informações a seguir:
 
+- Criei um arquivo chamado style.css e comecei a fazer a estilização do site por ele;
 - Defini fontes diferentes para o meu nome e para a descrição que eu criei;
 - Defini uma cor base de background do meu Portfólio Web ;
 - Alterei o estilo das tags que eu usei para destacar algumas informações, como minha nacionalidade e a cidade/estado onde moro;
@@ -42,6 +43,7 @@
 
 #### In this version 2.0, CSS styles were implemented/added according to the following information:
 
+- I created a file called style.css and started styling the site for it;
 - Defined different fonts for my name and the description I created;
 - Defined a base color of my Web Portfolio's background;
 - Changed the style of the tags I used to highlight some information, such as my nationality and the city/state where I live;
