@@ -15,7 +15,7 @@
 ### Para faze-lo, estou utilizando os conhecimentos que eu venho adquirindo ao longo
 ### do curso de Desenvolvimento Web Full Stack da <a href="https://www.betrybe.com" target="_blank" rel="noopener noreferrer" style="color: rgb(47, 255, 109);">Trybe</a>.
 
-#### Nesta versão 2.0, foram inplementadas/adicionadas estilizações com CSS de acordo com as informações a seguir:
+#### Nesta versão 3.0, foram inplementadas/adicionadas estilizações com CSS de acordo com as informações a seguir:
 
 - Criei um arquivo chamado style.css e comecei a fazer a estilização do site por ele;
 - Defini fontes diferentes para o meu nome e para a descrição que eu criei;
@@ -42,7 +42,7 @@
 ### To do this, I'm using the knowledge I've been acquiring throughout
 ### of the Full Stack Web Development course at <a href="https://www.betrybe.com" target="_blank" rel="noopener noreferrer" style="color: rgb(47, 255, 109) ;">Trybe</a>.
 
-#### In this version 2.0, CSS styles were implemented/added according to the following information:
+#### In this version 3.0, CSS styles were implemented/added according to the following information:
 
 - I created a file called style.css and started styling the site for it;
 - Defined different fonts for my name and the description I created;
