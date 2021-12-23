@@ -11,17 +11,21 @@ body {
     top: 74px;
     left: 0.5%;
     width: 98.5%;
-    height: 130%;
+    height: 129%;
     display: block;
 }
 
 #minha-foto {
     position: absolute;
+    display: block;
     width: 27%;
     border-radius: 40px;
     top: 83px;
     left: 1%;
-    z-index: 1;
+    z-index: 3;
+    border: 1px #00df95 solid;
+    border-right: 3px #00df95 solid;
+    border-bottom: 3px #00df95 solid;
     /*width: 27%;
     width: 450px*/
 }
@@ -55,15 +59,17 @@ body {
     border-radius: 30px;
     z-index: 0;
     padding: 7px;
+    padding-right: 2%;
 
     /* Talvez almentar o tamanho do padding de maneira específica pode resolver mais o problema do redimencionamento. */
 }
 
 #my-name {
     position: absolute;
+    display: block;
     z-index: 3;
     top: 48vw;
-    left: 3.5vw;
+    left: 3vw;
     color: rgb(135, 255, 101);
     background-color: rgb(0, 117, 196);
     border-radius: 15px;
@@ -87,7 +93,8 @@ body {
     top: 35px;
     font-size: 40px;
     border-left: 13px rgb(255, 255, 255) solid;
-    border-radius: 6px;
+    border-radius: 8px;
+    border-right: 10px #003A61 solid;
     padding-left: 0.6%;
     z-index: 1;
     color: white;
@@ -104,6 +111,7 @@ body {
 }
 
 #apresentation {
+    display: block;
     font-family: 'Readex Pro', sans-serif;
     font-size: 25px;
     text-align: center;
@@ -113,6 +121,16 @@ body {
 #my-skill {
     font-family: 'Bakbak One', cursive;
     font-size: 150%;
+}
+
+.li-impar {
+    border: 2px #08E5DE solid;
+    border-radius: 15px;
+    height: -50%;
+    margin: -0.5%;
+    padding-left: 1%;
+    padding-bottom: -10%;
+    margin-bottom: 2%;
 }
 
 #links-de-fora {
@@ -146,23 +164,47 @@ body {
     color: #30DF00;
 }
 
-#link1-inicio {
-    position: fixed;
-    left: 95%;
-    top: 49%;
-    color: deepskyblue;
-    font-size: 1vw;
-}
-
-#link2-final {
-    position: fixed;
-    left: 95%;
-    top: 51%;
-    color: darkorange;
-    font-size: 1vw;
-}
-
 #início-da-página {
     position: absolute;
     left: 50%;
+}
+
+#seta-pra-cima {
+    display: block;
+    z-index: 7;
+    position: fixed;
+    top: 38%;
+    width: 3vw;
+    left: 95%;
+    background-color: rgb(0, 0, 90);
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+#seta-para-baixo {
+    display: block;
+    z-index: 6;
+    position: fixed;
+    top: 55%;
+    width: 3vw;
+    left: 95%;
+    background-color: rgb(0, 0, 90);
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+#seta-pra-cima:hover {
+    background-color: white;
+}
+
+#seta-pra-cima:active {
+    background-color: #87FF65;
+}
+
+#seta-para-baixo:hover {
+    background-color: white;
+}
+
+#seta-para-baixo:active {
+    background-color:#87FF65;
 }
