@@ -25,7 +25,8 @@
 
 #### Extras:
 - Defini uma cor de background para o article;
-- Arredondei as bordas e alterei as posições dos elementos.
+- Arredondei as bordas e alterei as posições dos elementos;
+- Adicionei links internos usando ícones de setas.
 
 #
 
@@ -52,3 +53,4 @@
 #### Extras:
 - Defined a background color for the article;
 - Rounded the edges and changed the positions of the elements.
+- Added internal links using arrow icons.
