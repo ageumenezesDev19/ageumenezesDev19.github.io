@@ -64,6 +64,13 @@ body {
     color: white;
 }
 
+article section p {
+    margin-top: 50px;
+    background-color: rgb(43, 47, 47);
+    padding: 20px;
+    border-radius: 20px;
+}
+
 #seta-pra-cima {
     display: block;
     z-index: 4;
