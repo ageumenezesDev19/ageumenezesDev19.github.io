@@ -33,3 +33,7 @@
   list-style: none;
   font-size: 70px;
 }
+
+.projects-container img {
+  width: 300px;
+}
