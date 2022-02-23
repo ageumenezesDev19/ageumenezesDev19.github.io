@@ -9,8 +9,8 @@
     <title>Ageu Menezes Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav id="navagation">
+    <header id="nav-header">
+        <nav>
             <ul id="nav-list">
                 <li><img id="first-nav-icon" class="nav-icons" src="/images/icons/header/homeflat_106039.svg" alt="Ícone Home"></li>
                 <li><img id="second-nav-icon" class="nav-icons" src="/images/icons/header/directory_call_telephone_phone_contacts_communication_contact_book_address_icon_210815.svg" alt="Ícone About"></li>
@@ -24,11 +24,48 @@
             <h1 id="title" class="title-all">Ageu Menezes Costa</h1>
             <h4 id="profession" class="title-all">Web Developer Student</h4>
         </header>
-        <div>
-            <img id="my-main-img" src="/images/profile_pictures/Foto do Perfil 4.3.jpg" alt="Minha imagem principal">
-            <article>
+        <div id="first-div">
+            <div id="secund-div">
+                <img id="my-main-img" src="/images/profile_pictures/Foto do Perfil 4.3.jpg" alt="Minha imagem principal">
+                <section id="contacts">
+                    <ul id="contacts-links">
+                        <li><img class="external-link" src="/images/icons/linkedin.png" alt="Ícone do LinkedIn"></li>
+                        <li><img class="external-link" src="/images/icons/logotipo-do-github.png" alt="Ícone do Github"></li>
+                        <li><img class="external-link" src="/images/icons/4202011emailgmaillogomailsocialsocialmedia-115677_115624.svg" alt="Ícone do Gmail"></li>
+                        <li><img class="external-link" src="/images/icons/iconfinder-social-media-applications-23whatsapp-4102606_113811.svg" alt="Ícone do WhatsApp"></li>
+                        <li><img class="external-link" src="/images/icons/Icone_do_logo_da_tryeb.png" alt="Ícone da Trybe"></li>
+                        <li><img class="external-link" src="/images/icons/telegram_icon_130816.svg" alt="Ícone do Telegram"></li>
+                    </ul>
+                </section>
+                <section id="my-soft-skills">
+                    <h2 class="sub-title">My Soft Skills</h2>
+                    <ul>
+                        <i class="fa-regular fa-certificate"></i>
+                        <li class="soft-skills-li">Comunicação;</li>
+                        <li class="soft-skills-li">Trabalho em Equipe;</li>
+                        <li class="soft-skills-li">Inteligência Emocional;</li>
+                        <li class="soft-skills-li">Inteligência Financeira;</li>
+                        <li class="soft-skills-li">Criatividade.</li>
+                    </ul>
+                </section>
+                <section id="experiences-container">
+                    <div id="dev-time">
+                        <img class="experiences-img" src="/images/icons/plano-de-carreira.png" alt="Ícone de Carreira">
+                        <h4>Experience</h4>
+                        <p>3 Months</p>
+                        <!-- Imagem 'carreira'; Font: <a href="https://www.flaticon.com/br/icones-gratis/carreira" title="carreira ícones">Carreira ícones criados por surang - Flaticon</a> -->
+                    </div>
+                    <div id="numbers-of-projects">
+                        <img class="experiences-img" src="/images/icons/project-management.png" alt="Imagem Ícone de Projetos 2">
+                        <h4>Projects</h4>
+                        <p>8 Projects</p>
+                        <!-- Imagem "project icons"; Font: <a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by dDara - Flaticon</a> -->
+                    </div>
+                </section>
+            </div>
+            <article id="main-article">
                 <section id="about-me">
-                    <h2>About me</h2>
+                    <h2 class="sub-title">About me</h2>
                     <p>Sou estudante de Desenvolvimento Web Full Stack da Trybe na Turma 20 e Entusiasta da Tecnologia.
                         Brasileiro, tenho 19 anos e moro no estado do Ceará. Gosto de assister filmes de ficção científica,
                         de animação e de aventura. Gosto de apreciar a natureza, curto músicas internacionais e eletrônicas,
@@ -37,51 +74,45 @@
                         não tinha um PC, mas apenas um celular. Agora que uns meses atrás eu pude adquirir um PC novo e
                         entrar nesse mundo da programação por meio da Trybe, e é maravilhoso! Inclusive este portfólio foi
                         feito do zero utilizando HTML e CSS, que são linguagens de marcação de texto e estilização.
-                        Esta é a versão 5.1 dele (Ainda em desenvolvimento).</p>
+                        Esta é a versão 5.2 dele.</p>
                 </section>
+                <div id="my-hard-skills-title">
+                    <h2 class="sub-title">My Hard Skills</h2>
+                </div>
                 <section id="my-hard-skills">
-                    <h2>My Hard Skills</h2>
-                    <div>
+                    <div class="hard-skills-containers">
                         <h4>Web Developer</h4>
                         <ul id="hard-skill-ul-container-1">
-                            <li class="hard-skills-li"><i class="devicon-html5-plain-wordmark colored"><p style="font-size: 24px;">Intermediate</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-css3-plain-wordmark colored"><p style="font-size: 24px;">Basic</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-javascript-plain colored"><p style="font-size: 24px;">Basic</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-git-plain-wordmark colored"><p style="font-size: 24px;">Basic</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-github-original-wordmark colored"><p style="font-size: 24px;">Experienced</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-vscode-plain colored"><p style="font-size: 24px;">Experienced</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-bash-plain colored"><p style="font-size: 24px;">Basic</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-jest-plain colored"><p style="font-size: 24px;">Basic</p></i></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-html5-plain-wordmark colored">HTML5 | Intermediate</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-css3-plain-wordmark colored">CSS3 | Basic</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-javascript-plain colored"> JavaScript | Basic</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-git-plain-wordmark colored">Basic</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-github-original-wordmark colored"> Experienced</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-vscode-plain colored"> VS Code | Experienced</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-bash-plain colored"> Bash | Basic</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-jest-plain colored"> Jest | Basic</p></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="hard-skills-containers">
                         <h4>Creativity</h4>
                         <ul id="hard-skill-ul-container-2">
-                            <li class="hard-skills-li"><i class="devicon-premierepro-plain colored"><p style="font-size: 24px;">Experienced</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-aftereffects-plain colored"><p style="font-size: 24px;">Basic</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-photoshop-plain colored"><p style="font-size: 24px;">Intermediate</p></i></li>
-                            <li class="hard-skills-li"><i class="devicon-illustrator-plain colored"><p style="font-size: 24px;">Intermediate</p></i></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-premierepro-plain colored"> Experienced</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-aftereffects-plain colored"> Basic</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-photoshop-plain colored"> Intermediate</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-illustrator-plain colored"> Intermediate</p></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="hard-skills-containers">
                         <h4>Others</h4>
                         <ul id="hard-skill-ul-container-3">
-                            <li class="hard-skills-li"><i class="devicon-apple-original colored"><p style="font-size: 24px;">MacOS</p></i></li>
-                            <li style="list-style: none; font-size: 50px;"><p>🇺🇸 English</p><p style="font-size: 24px;">Intermediate</p></li>
+                            <li class="hard-skills-li"><i><p class="hard-skill-p devicon-apple-original colored">MacOS</p></i></li>
+                            <li class="hard-skills-li" style="list-style: none; font-size: 50px;"><p class="hard-skill-p">🇺🇸 English: Intermediate</p></li>
                         </ul>
                     </div>
                 </section>
-                <section id="my-soft-skills">
-                    <h2>My Soft Skills</h2>
-                    <ul>
-                        <li>Comunicação;</li>
-                        <li>Trabalho em Equipe;</li>
-                        <li>Inteligência Emocional;</li>
-                        <li>Inteligência Financeira;</li>
-                        <li>Criatividade.</li>
-                    </ul>
-                </section>
             </article>
+        </div>
+        <div>
             <section id="my-projects">
                 <h2>My Projects</h2>
                 <div id="project-1" class="projects-container">
@@ -121,16 +152,6 @@
                 </div>
                 <!-- Imagem project_code-only, Foto de Luis gomes no Pexels -->
             </section>
-        </div>
-        <div>
-            <ul id="contacts">
-                <li><img class="external-link" src="/images/icons/linkedin.png" alt="Ícone do LinkedIn"></li>
-                <li><img class="external-link" src="/images/icons/logotipo-do-github.png" alt=""></li>
-                <li><img class="external-link" src="/images/icons/4202011emailgmaillogomailsocialsocialmedia-115677_115624.svg" alt="Ícone do Gmail"></li>
-                <li><img class="external-link" src="/images/icons/iconfinder-social-media-applications-23whatsapp-4102606_113811.svg" alt="Ícone do WhatsApp"></li>
-                <li><img class="external-link" src="/images/icons/telegram_icon_130816.svg" alt="Ícone do Telegram"></li>
-                <li><img class="external-link" src="/images/icons/Icone_do_logo_da_tryeb.png" alt=""></li>
-            </ul>
         </div>
     </main>
     <footer>
