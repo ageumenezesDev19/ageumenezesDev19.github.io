@@ -429,3 +429,18 @@ footer {
   font-style: normal;
   font-weight: 300;
 }
+
+/* Add responsiveness: */
+@media only screen and (max-width: 1122px) {
+  #contacts {
+    margin-top: 40px;
+  }
+
+  #about-me-link {
+    margin-bottom: 0;
+  }
+
+  #about-me {
+    margin: 55px 0 40px;
+  }
+}
