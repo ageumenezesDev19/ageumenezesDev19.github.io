@@ -386,3 +386,9 @@ footer {
   justify-content: center;
   color: white;
 }
+
+#author {
+  font-family: decoy, serif;
+  font-style: normal;
+  font-weight: 300;
+}
