@@ -6,6 +6,8 @@ body {
   background: black;
 }
 
+/* Add style to nav list: ---------------------------------------------------------------- */
+
 #nav-header {
   display: flex;
   justify-content: center;
@@ -16,28 +18,52 @@ body {
 
 #nav-list {
   display: flex;
-  background: rgba(143, 143, 143, 0.5);
   align-items: center;
-  padding: 6px;
-  border-radius: 20px;
   width: 160px;
-  backdrop-filter: blur(5px); /* backdrop-filter: blur(5px);
-  Font: https://developer.mozilla.org/pt-BR/docs/Web/CSS/backdrop-filter */
+  padding: 0;
 }
 
 #nav-list li {
   list-style: none;
+  padding: 8px;
+  margin: 0;
+  background: rgba(172, 172, 172, 0.5);
+  backdrop-filter: blur(5px); /* backdrop-filter: blur(5px);
+  Font: https://developer.mozilla.org/pt-BR/docs/Web/CSS/backdrop-filter */
+}
+
+#first-nav-icon {
+  border-radius: 20px 0 0 20px;
+}
+
+#third-nav-icon {
+  border-radius: 0 20px 20px 0;
+}
+
+#nav-list li:hover {
+  background: rgba(124, 124, 124, 0.5);
+  transition: background 0.5s;
+}
+
+#nav-list li:active {
+  background: rgba(83, 83, 83, 0.5);
+  transition: background 0.1s;
 }
 
 .nav-icons {
-  width: 40px;
+  width: 35px;
 }
+
+#nav-list a {
+  margin: 0;
+}
+/* Finish adding style to navigation links. ---------------------------------------------------------------- */
 
 #presentation {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 40px 0px 25px;
+  margin: 20px 0px 25px;
 }
 
 .title-all {
@@ -61,17 +87,32 @@ body {
   flex-wrap: wrap;
 }
 
+@keyframes changes-shadow-color {
+  0%  {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
+  20% {box-shadow: 0px 0px 55px #00A1E6; border: 2px solid #00A1E6;}
+  40% {box-shadow: 0px 0px 20px #9dff00; border: 2px solid #9dff00;}
+  60% {box-shadow: 0px 0px 55px #E6B02E; border: 2px solid #E6B02E;}
+  80% {box-shadow: 0px 0px 20px #DC0063; border: 2px solid #DC0063;}
+  100% {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
+}
+
 #my-main-img {
   margin-left: 20px;
   width: 320px;
   border-radius: 30px;
   border: 2px solid rgb(82, 177, 255);
   box-shadow: 0px 0px 55px rgb(82, 177, 255);
+  animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
+}
+/* Animation; font: https://pt.stackoverflow.com/questions/113029/como-fazer-ao-fim-de-um-tempo-a-cor-de-uma-div-mudar/113056 */
+
+#about-me-link {
+  margin-bottom: 60px;
 }
 
 #contacts {
   width: 300px;
-  margin-top: 233px;
+  margin-top: 160px;
 }
 
 #contacts h3 {
@@ -319,12 +360,12 @@ body {
   font-style: normal;
 }
 
-#my-projects-title {
+#my-projects-container {
   display: flex;
   margin-top: 30px;
 }
 
-#my-projects-title h2 {
+#my-projects-container h2 {
   color: white;
 }
 

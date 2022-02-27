@@ -11,16 +11,17 @@
     <title>Ageu Menezes Portfolio</title>
 </head>
 <body>
-    <header id="nav-header">
-        <nav>
+    <header>
+        <nav id="nav-header">
             <ul id="nav-list">
-                <li><img id="first-nav-icon" class="nav-icons" src="/images/icons/header/homeflat_106039.svg" alt="Ícone Home"></li>
-                <li><img id="second-nav-icon" class="nav-icons" src="/images/icons/header/directory_call_telephone_phone_contacts_communication_contact_book_address_icon_210815.svg" alt="Ícone About"></li>
-                <li><img id="third-nav-icon" class="nav-icons" src="/images/icons/header/developer_folder_20798.png" alt="Ícone Projects"></li>
+                <a href="#home-link"><li id="first-nav-icon"><img class="nav-icons" src="/images/icons/header/homeflat_106039.svg" alt="Ícone Home"></li></a>
+                <a href="#about-me-link"><li id="second-nav-icon"><img class="nav-icons" src="/images/icons/header/directory_call_telephone_phone_contacts_communication_contact_book_address_icon_210815.svg" alt="Ícone About"></li></a>
+                <a href="#my-projects-link"><li id="third-nav-icon"><img class="nav-icons" src="/images/icons/header/developer_folder_20798.png" alt="Ícone Projects"></li></a>
             </ul>
         </nav>
     </header>
     <main>
+        <p id="home-link">.</p>
         <header id="presentation">
             <h4 id="salutation" class="title-all">Hello World! I'm</h4>
             <h1 id="title" class="title-all">Ageu Menezes Costa</h1>
@@ -30,6 +31,7 @@
             <div id="secund-div">
                 <img id="my-main-img" src="/images/profile_pictures/Foto do Perfil 4.3.jpg" alt="Minha imagem principal">
                 <section id="contacts">
+                    <p id="about-me-link">.</p>
                     <h3 class="sub-title">My Links</h3>
                     <ul id="contacts-links">
                         <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><img class="external-link" id="linkedin-icon" src="/images/icons/linkedin.png" alt="Ícone do LinkedIn"></a></li>
@@ -116,8 +118,8 @@
             </article>
         </div>
         <div>
-            <div id="my-projects-title">
-                <h2 class="sub-title">My Projects</h2>
+            <div id="my-projects-container">
+                <h2 id="my-projects-link" class="sub-title">My Projects</h2>
             </div>
             <section id="my-projects">
                 <div id="project-1" class="projects-container">
