@@ -21,41 +21,38 @@ body {
   align-items: center;
   width: 160px;
   padding: 0;
+  background: rgba(144, 144, 144, 0.5);
+  border-radius: 24px;
+  backdrop-filter: blur(5px); /* backdrop-filter: blur(5px);
+  Font: https://developer.mozilla.org/pt-BR/docs/Web/CSS/backdrop-filter */
 }
 
 #nav-list li {
   list-style: none;
   padding: 8px;
   margin: 0;
-  background: rgba(172, 172, 172, 0.5);
-  backdrop-filter: blur(5px); /* backdrop-filter: blur(5px);
-  Font: https://developer.mozilla.org/pt-BR/docs/Web/CSS/backdrop-filter */
 }
 
 #first-nav-icon {
-  border-radius: 20px 0 0 20px;
+  border-radius: 24px 0 0 24px;
 }
 
 #third-nav-icon {
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 24px 24px 0;
 }
 
 #nav-list li:hover {
-  background: rgba(124, 124, 124, 0.5);
+  background: rgba(155, 155, 155, 0.5);
   transition: background 0.5s;
 }
 
 #nav-list li:active {
-  background: rgba(83, 83, 83, 0.5);
+  background: rgba(26, 26, 26, 0.5);
   transition: background 0.1s;
 }
 
 .nav-icons {
   width: 35px;
-}
-
-#nav-list a {
-  margin: 0;
 }
 /* Finish adding style to navigation links. ---------------------------------------------------------------- */
 
@@ -282,7 +279,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 0 0 30px;
+  margin: 20px;
 }
 
 .hard-skills-containers {
