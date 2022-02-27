@@ -11,7 +11,7 @@ body {
   justify-content: center;
   position: fixed;
   width: 100%;
-  top: 89%;
+  bottom: 2.5rem;
 }
 
 #nav-list {
@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 40px 0px 40px;
+  margin: 40px 0px 25px;
 }
 
 .title-all {
@@ -71,7 +71,7 @@ body {
 
 #contacts {
   width: 300px;
-  margin-top: 220px;
+  margin-top: 233px;
 }
 
 #contacts h3 {
