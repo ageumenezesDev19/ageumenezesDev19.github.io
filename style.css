@@ -23,8 +23,7 @@ body {
   padding: 0;
   background: rgba(144, 144, 144, 0.5);
   border-radius: 24px;
-  backdrop-filter: blur(5px);
-  /* backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); /* backdrop-filter: blur(5px);
   Font: https://developer.mozilla.org/pt-BR/docs/Web/CSS/backdrop-filter */
 }
 
@@ -55,7 +54,6 @@ body {
 .nav-icons {
   width: 35px;
 }
-
 /* Finish adding style to navigation links. ---------------------------------------------------------------- */
 
 #presentation {
@@ -68,18 +66,17 @@ body {
 .title-all {
   padding: 4px 0px 4px;
   color: rgb(0, 204, 255);
-  font-family: poppins, sans-serif;
+  font-family: poppins,sans-serif;
   font-weight: 700;
   font-style: italic;
 }
 
 #title {
-  font-family: omnium, sans-serif;
+  font-family: omnium,sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 45px;
   color: white;
-  text-align: center;
 }
 
 #first-div {
@@ -88,35 +85,12 @@ body {
 }
 
 @keyframes changes-shadow-color {
-  0% {
-    box-shadow: 0px 0px 55px #A100C7;
-    border: 2px solid #A100C7;
-  }
-
-  20% {
-    box-shadow: 0px 0px 55px #00A1E6;
-    border: 2px solid #00A1E6;
-  }
-
-  40% {
-    box-shadow: 0px 0px 20px #9dff00;
-    border: 2px solid #9dff00;
-  }
-
-  60% {
-    box-shadow: 0px 0px 55px #E6B02E;
-    border: 2px solid #E6B02E;
-  }
-
-  80% {
-    box-shadow: 0px 0px 20px #DC0063;
-    border: 2px solid #DC0063;
-  }
-
-  100% {
-    box-shadow: 0px 0px 55px #A100C7;
-    border: 2px solid #A100C7;
-  }
+  0%  {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
+  20% {box-shadow: 0px 0px 55px #00A1E6; border: 2px solid #00A1E6;}
+  40% {box-shadow: 0px 0px 20px #9dff00; border: 2px solid #9dff00;}
+  60% {box-shadow: 0px 0px 55px #E6B02E; border: 2px solid #E6B02E;}
+  80% {box-shadow: 0px 0px 20px #DC0063; border: 2px solid #DC0063;}
+  100% {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
 }
 
 #my-main-img {
@@ -124,9 +98,8 @@ body {
   width: 320px;
   border-radius: 30px;
   border: 2px solid rgb(82, 177, 255);
-  animation: changes-shadow-color 10s cubic-bezier(.17, .67, .83, .67) infinite;
+  animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
 }
-
 /* Animation; font: https://pt.stackoverflow.com/questions/113029/como-fazer-ao-fim-de-um-tempo-a-cor-de-uma-div-mudar/113056 */
 
 #about-me-link {
@@ -136,7 +109,6 @@ body {
 #contacts {
   width: 300px;
   margin-top: 160px;
-  margin-bottom: 30px;
 }
 
 #contacts h3 {
@@ -160,7 +132,6 @@ body {
   border-radius: 15px;
   padding: 5px;
 }
-
 /* My Links: Add hover and active: ---------------------------------------------------------------------- */
 #linkedin-icon:hover {
   box-shadow: 0px 0px 25px rgb(0, 76, 255);
@@ -195,7 +166,7 @@ body {
 
 #whatsapp-icon:active {
   border: 4px solid rgb(0, 255, 0);
-  padding: 2px;
+  padding: 2px; 
 }
 
 #trybe-icon:hover {
@@ -215,7 +186,6 @@ body {
   border: 4px solid rgb(0, 204, 255);
   padding: 2px;
 }
-
 /* And adding hover and active. ---------------------------------------------------------------------- */
 
 #contacts-links li {
@@ -225,16 +195,11 @@ body {
 #my-soft-skills {
   padding-top: 10px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  margin: 50px 0 50px;
   background: rgb(187, 38, 100);
   box-shadow: 0px 0px 30px rgb(221, 45, 118);
   border-radius: 30px;
-}
-
-#my-soft-skills h2 {
-  margin: 0px 10px 0px 10px;
-  text-align: center;
 }
 
 #my-soft-skills ul {
@@ -250,7 +215,7 @@ body {
   color: white;
   list-style: none;
   font-size: 30px;
-  font-family: rubrik-new, sans-serif;
+  font-family: rubrik-new,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -295,7 +260,7 @@ body {
   text-align: center;
   font-size: 24px;
   margin: 0 30px 0px 30px;
-  font-family: rubrik-new, sans-serif;
+  font-family: rubrik-new,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -328,7 +293,7 @@ body {
   margin-top: 10px;
   color: rgb(0, 247, 255);
   font-size: 30px;
-  font-family: sisters-two, sans-serif;
+  font-family: sisters-two,sans-serif;
   font-weight: 200;
   font-style: normal;
 }
@@ -386,7 +351,7 @@ body {
 .sub-title {
   font-size: 35px;
   color: white;
-  font-family: co-headline, sans-serif;
+  font-family: co-headline,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -420,7 +385,7 @@ body {
 .projects-container h3 {
   margin-bottom: 10px;
   color: white;
-  font-family: decoy, serif;
+  font-family: decoy,serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -438,7 +403,7 @@ body {
   background: rgb(64, 65, 66);
   border-bottom: 2px solid rgb(0, 174, 255);
   color: rgb(129, 215, 255);
-  font-family: eurostile, sans-serif;
+  font-family: eurostile,sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 25px;
@@ -466,8 +431,6 @@ footer {
 }
 
 /* Add responsiveness: */
-
-/* Adjusts the distance between elements */
 @media only screen and (max-width: 1122px) {
   #contacts {
     margin-top: 40px;
@@ -479,69 +442,5 @@ footer {
 
   #about-me {
     margin: 55px 0 40px;
-  }
-}
-
-/* Adjusts the mobile responsiveness 1 */
-@media only screen and (max-width: 500px) {
-  .projects-container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-
-  #my-main-img {
-    margin-left: 20px;
-    width: 320px;
-    border-radius: 30px;
-  }
-
-  #my-soft-skills {
-    padding-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background: rgb(187, 38, 100);
-    box-shadow: 0px 0px 30px rgb(221, 45, 118);
-    border-radius: 30px;
-  }
-
-  #my-soft-skills h2 {
-    margin: 0px 10px 0px 10px;
-    text-align: center;
-  }
-
-  #my-soft-skills ul {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-  }
-
-  .soft-skills-li {
-    margin: 20px;
-    text-align: center;
-    color: white;
-    list-style: none;
-    font-size: 30px;
-    font-family: rubrik-new, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  #experiences-container {
-    margin-top: 35px;
-    display: flex;
-    background: rgb(176, 235, 110);
-    box-shadow: 0px 0px 25px rgb(176, 235, 110);
-    padding: 20px;
-    border-radius: 25px;
-  }
-
-  .experiences-img {
-    width: 50px;
   }
 }
