@@ -6,6 +6,11 @@ body {
   background: black;
 }
 
+main {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 /* Add style to nav list: ---------------------------------------------------------------- */
 
 #nav-header {
@@ -77,11 +82,13 @@ body {
   font-style: normal;
   font-size: 45px;
   color: white;
+  text-align: center;
 }
 
 #first-div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 @keyframes changes-shadow-color {
@@ -94,7 +101,7 @@ body {
 }
 
 #my-main-img {
-  margin-left: 20px;
+  margin: none;
   width: 320px;
   border-radius: 30px;
   border: 2px solid rgb(82, 177, 255);
@@ -429,3 +436,33 @@ footer {
   font-style: normal;
   font-weight: 300;
 }
+
+/* Add responsiveness: */
+@media only screen and (max-width: 1172px) {
+
+  #secund-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contacts {
+    margin-top: 60px;
+  }
+
+  #secund-div {
+    margin-bottom: 90px;
+  }
+
+  #about-me {
+    margin: 0 0 120px;
+  }
+}
+
+/* Continuação: */
+/* #my-main-img {
+    width: 320px;
+    border-radius: 30px;
+  } */
+
+/* @media only screen and (max-width: 475px) {} */
