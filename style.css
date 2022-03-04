@@ -467,6 +467,11 @@ footer {
   #about-me {
     margin: 0 0 120px;
   }
+
+  #experiences-container div {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
 }
 
 @media only screen and (max-width: 475px) {
@@ -487,5 +492,10 @@ footer {
 
   .hard-skill-p {
     font-size: 35px;
+  }
+
+  #experiences-container div {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
