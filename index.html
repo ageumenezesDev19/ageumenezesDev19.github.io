@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/rzx6kuv.css"> <!-- Link Para Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> <!-- Link para os ícones da Devicon. -->
     <script src="https://kit.fontawesome.com/002932bb3a.js" crossorigin="anonymous"></script> <!-- Link para os ícones do fontawesome. -->
     <link rel="stylesheet" href="style.css">
     <title>Ageu Menezes Portfolio</title>
 </head>
 <body>
-    <header id="nav-header">
-        <nav>
+    <header>
+        <nav id="nav-header">
             <ul id="nav-list">
-                <li><img id="first-nav-icon" class="nav-icons" src="/images/icons/header/homeflat_106039.svg" alt="Ícone Home"></li>
-                <li><img id="second-nav-icon" class="nav-icons" src="/images/icons/header/directory_call_telephone_phone_contacts_communication_contact_book_address_icon_210815.svg" alt="Ícone About"></li>
-                <li><img id="third-nav-icon" class="nav-icons" src="/images/icons/header/developer_folder_20798.png" alt="Ícone Projects"></li>
+                <a href="#home-link" id="home-link-2"><li id="first-nav-icon"><img class="nav-icons" src="/images/icons/header/homeflat_106039.svg" alt="Ícone Home"></li></a>
+                <a href="#about-me-link" id="about-me-link-2"><li id="second-nav-icon"><img class="nav-icons" src="/images/icons/header/directory_call_telephone_phone_contacts_communication_contact_book_address_icon_210815.svg" alt="Ícone About"></li></a>
+                <a href="#my-projects-link" id="my-projects-link-2"><li id="third-nav-icon"><img class="nav-icons" src="/images/icons/header/developer_folder_20798.png" alt="Ícone Projects"></li></a>
             </ul>
         </nav>
     </header>
     <main>
+        <p id="home-link">.</p>
         <header id="presentation">
             <h4 id="salutation" class="title-all">Hello World! I'm</h4>
             <h1 id="title" class="title-all">Ageu Menezes Costa</h1>
@@ -29,14 +31,15 @@
             <div id="secund-div">
                 <img id="my-main-img" src="/images/profile_pictures/Foto do Perfil 4.3.jpg" alt="Minha imagem principal">
                 <section id="contacts">
+                    <p id="about-me-link">.</p>
                     <h3 class="sub-title">My Links</h3>
                     <ul id="contacts-links">
-                        <li><img class="external-link" src="/images/icons/linkedin.png" alt="Ícone do LinkedIn"></li>
-                        <li><img class="external-link" src="/images/icons/logotipo-do-github.png" alt="Ícone do Github"></li>
-                        <li><img class="external-link" src="/images/icons/4202011emailgmaillogomailsocialsocialmedia-115677_115624.svg" alt="Ícone do Gmail"></li>
-                        <li><img class="external-link" src="/images/icons/iconfinder-social-media-applications-23whatsapp-4102606_113811.svg" alt="Ícone do WhatsApp"></li>
-                        <li><img class="external-link" src="/images/icons/Icone_do_logo_da_tryeb.png" alt="Ícone da Trybe"></li>
-                        <li><img class="external-link" src="/images/icons/telegram_icon_130816.svg" alt="Ícone do Telegram"></li>
+                        <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><img class="external-link" id="linkedin-icon" src="/images/icons/linkedin.png" alt="Ícone do LinkedIn"></a></li>
+                        <li><a href="https://github.com/ageumenezesDev19" target="_blank" rel="noopener noreferrer"><img class="external-link" id="github-icon" src="/images/icons/logotipo-do-GitHub.png" alt="Ícone do GitHub"></a></li>
+                        <li><a href="mailto:ageumenezes23@gmail.com"><img class="external-link" id="gmail-icon" src="/images/icons/4202011emailgmaillogomailsocialsocialmedia-115677_115624.svg" alt="Ícone do Gmail"></a></li>
+                        <li><a href="https://web.whatsapp.com/send?phone=5588981774397" target="_blank" rel="noopener noreferrer"><img class="external-link" id="whatsapp-icon" src="/images/icons/iconfinder-social-media-applications-23whatsapp-4102606_113811.svg" alt="Ícone do WhatsApp"></a></li>
+                        <li><a href="https://www.betrybe.com" target="_blank" rel="noopener noreferrer"><img class="external-link" id="trybe-icon" src="/images/icons/Icone_do_logo_da_tryeb.png" alt="Ícone da Trybe"></a></li>
+                        <li><a href="https://t.me/ageu_menezes" target="_blank" rel="noopener noreferrer"><img class="external-link" id="telegram-icon" src="/images/icons/telegram_icon_130816.svg" alt="Ícone do Telegram"></a></li>
                     </ul>
                 </section>
                 <section id="my-soft-skills">
@@ -71,12 +74,11 @@
                     <p>Sou estudante de Desenvolvimento Web Full Stack da Trybe na Turma 20 e Entusiasta da Tecnologia.
                         Brasileiro, tenho 19 anos e moro no estado do Ceará. Gosto de assister filmes de ficção científica,
                         de animação e de aventura. Gosto de apreciar a natureza, curto músicas internacionais e eletrônicas,
-                        além de gostar de dançar também. A tecnologia sempre foi um hobby pra mim desde quando eu era criança,
+                        além de gostar de dançar também.<br><br>A tecnologia sempre foi um hobby pra mim desde quando eu era criança,
                         só que eu estava limitado no que eu podia fazer, principalmente em relação a programação, porque eu
-                        não tinha um PC, mas apenas um celular. Agora que uns meses atrás eu pude adquirir um PC novo e
-                        entrar nesse mundo da programação por meio da Trybe, e é maravilhoso! Inclusive este portfólio foi
-                        feito do zero utilizando HTML e CSS, que são linguagens de marcação de texto e estilização.
-                        Esta é a versão 5.3 dele.</p>
+                        não tinha um PC. Foi só uns meses atrás que eu pude adquirir um PC novo e
+                        entrar nesse mundo da programação por meio da Trybe, e é maravilhoso! Desde que comecei já pude aprender
+                        bastante coisa, inclusive a fazer um portfólio como esse 😁. Esta é a versão 5.4 dele.</p>
                 </section>
                 <div id="my-hard-skills-title">
                     <h2 class="sub-title">My Hard Skills</h2>
@@ -89,8 +91,8 @@
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-css3-plain-wordmark colored">CSS3 | Basic</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-javascript-plain colored"> JavaScript | Basic</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-git-plain-wordmark colored">Basic</p></li>
-                            <li class="hard-skills-li"><p class="hard-skill-p devicon-github-original-wordmark colored"> Experienced</p></li>
-                            <li class="hard-skills-li"><p class="hard-skill-p devicon-vscode-plain colored"> VS Code | Experienced</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-github-original-wordmark colored"> Intermediate</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-vscode-plain colored"> VS Code | Intermediate</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-bash-plain colored"> Bash | Basic</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-jest-plain colored"> Jest | Basic</p></li>
                         </ul>
@@ -98,7 +100,7 @@
                     <div class="hard-skills-containers">
                         <h4>Creativity</h4>
                         <ul id="hard-skill-ul-container-2">
-                            <li class="hard-skills-li"><p class="hard-skill-p devicon-premierepro-plain colored"> Experienced</p></li>
+                            <li class="hard-skills-li"><p class="hard-skill-p devicon-premierepro-plain colored"> Intermediate</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-aftereffects-plain colored"> Basic</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-photoshop-plain colored"> Intermediate</p></li>
                             <li class="hard-skills-li"><p class="hard-skill-p devicon-illustrator-plain colored"> Intermediate</p></li>
@@ -115,44 +117,44 @@
             </article>
         </div>
         <div>
-            <div id="my-projects-title">
-                <h2 class="sub-title">My Projects</h2>
+            <div id="my-projects-container">
+                <h2 id="my-projects-link" class="sub-title">My Projects</h2>
             </div>
             <section id="my-projects">
                 <div id="project-1" class="projects-container">
                     <h3>Project Lessons Learned</h3>
                     <img src="/images/projects/porject-1_lessons-learned.png" alt="Imagem do projeto 1: Lessons Learned.">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-03_introducão-à-html-e-css/dia-5-projeto-lessons-learned" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-2" class="projects-container">
                     <h3>Playground Functions</h3>
                     <img src="/images/projects/project_code-only.jpg" alt="Imagem do projeto 2: Playground Functions">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-04_Intruducão-a-javaScript-e-lógica-de-programacão/dia-5_projeto_playground-functions" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-3" class="projects-container">
                     <h3>Pixels Art</h3>
                     <img src="/images/projects/porject-3_pixels-art.png" alt="Imagem do projeto 3: Pixels Art">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-05_javaScript_DOM-eventos-e-webStorege/dia-05_projeto_arte-com-pixels" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-4" class="projects-container">
                     <h3>To-Do List</h3>
                     <img src="/images/projects/project-4_to-do-list.png" alt="Imagem do projeto 4: To-Do List">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-05_javaScript_DOM-eventos-e-webStorege/dia-06_projeto_lista-de-tarefas" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-5" class="projects-container">
                     <h3>Trybewarts</h3>
                     <img src="/images/projects/porject-5_trybewarts.png" alt="Imagem do projeto 5: Trybewarts">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-06-html-e-css-forms-flexbox-e-responsivo/dia-6_projeto-trybewarts" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-6" class="projects-container">
                     <h3>Unit Tests</h3>
                     <img src="/images/projects/project_code-only.jpg" alt="Imagem do projeto 6: Unit Tests">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-07-introducao-a-javascript-es6-e-testes-unitarios/dia-4_projeto_javaScript-testes-unitários" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <div id="project-7" class="projects-container">
                     <h3>Zoo Functions</h3>
                     <img src="/images/projects/project_code-only.jpg" alt="Imagem do projeto 7: Zoo Functions">
-                    <p></p>
+                    <a href="https://github.com/ageumenezesDev19/trybe-course_exercises/tree/main/módulo-1_fundamentos-do-desenvolvimento-web/bloco-08-higher-order-functions-do-javascript-es6/dia-6_projeto_zoo-functions" target="_blank" rel="noopener noreferrer"><button name="button" class="projects-btn">GitHub</button></a>
                 </div>
                 <!-- Imagem project_code-only, Foto de Luis gomes no Pexels -->
             </section>
