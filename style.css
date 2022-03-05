@@ -3,7 +3,7 @@
 }
 
 body {
-  background: white;
+  background: black;
 }
 
 #nav-header {
@@ -42,6 +42,7 @@ body {
 
 .title-all {
   padding: 4px 0px 4px;
+  color: white;
 }
 
 #first-div {
@@ -50,22 +51,32 @@ body {
 }
 
 #my-main-img {
-  width: 380px;
+  margin-left: 20px;
+  width: 320px;
   border-radius: 30px;
+  border: 2px solid rgb(82, 177, 255);
+  box-shadow: 0px 0px 55px rgb(82, 177, 255);
 }
 
 #contacts {
   width: 300px;
-  margin-top: 90px;
+  margin-top: 220px;
+}
+
+#contacts h3 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #contacts-links {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  background: gold;
+  background: rgb(255, 255, 255);
   border-radius: 30px;
   padding: 30px;
+  border: 7px solid rgb(255, 0, 76);
+  box-shadow: 0px 0px 25px rgb(255, 0, 76);
 }
 
 .external-link {
@@ -80,8 +91,9 @@ body {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
-  margin: 30px 0 30px;
-  background: deeppink;
+  margin: 50px 0 50px;
+  background: rgb(187, 38, 100);
+  box-shadow: 0px 0px 30px rgb(221, 45, 118);
   border-radius: 30px;
 }
 
@@ -100,12 +112,14 @@ body {
 .soft-skills-li {
   margin: 20px;
   text-align: center;
+  color: white;
 }
 
 #experiences-container {
   margin-top: 35px;
   display: flex;
   background: rgb(176, 235, 110);
+  box-shadow: 0px 0px 25px rgb(176, 235, 110);
   padding: 20px;
   border-radius: 25px;
 }
@@ -136,14 +150,17 @@ body {
   width: 750px;
 }
 
-#about-me {
-  margin: 35px;
-  display: flex;
-  flex-direction: column;
+#about-me p {
+  color: white;
+  text-align: center;
+  font-size: 26.5px;
+  margin: 0 30px 0px 30px;
 }
 
-#about-me p {
-  font-size: 25px;
+#about-me {
+  margin: 35px 0 220px;
+  display: flex;
+  flex-direction: column;
 }
 
 #my-hard-skills-title {
@@ -157,50 +174,53 @@ body {
   margin: 0 0 30px;
 }
 
-#my-hard-skills h4 {
-  margin-top: 20px;
-}
-
 .hard-skills-containers {
   display: flex;
   flex-direction: column;
+  margin: 10px 0 10px;
 }
 
 .hard-skills-containers h4 {
-  margin-bottom: 3px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  color: rgb(0, 247, 255);
+  font-size: 22px;
 }
 
 #hard-skill-ul-container-1 {
   display: flex;
   flex-wrap: wrap;
-  background-color: aquamarine;
+  background-color: rgb(221, 221, 221);
   border-radius: 30px;
   padding: 20px;
   justify-content: center;
+  box-shadow: 0px 0px 25px rgb(179, 179, 179);
 }
 
 #hard-skill-ul-container-1 li {
-  background:rgb(255, 255, 255);
   padding: 8px;
   border-radius: 12px;
   text-align: center;
+  background-color: white;
 }
 
 #hard-skill-ul-container-2 {
   display: flex;
   flex-wrap: wrap;
-  background-color: aqua;
+  background-color: rgb(151, 24, 255);
   border-radius: 30px;
   padding: 20px;
+  box-shadow: 0px 0px 35px rgb(165, 55, 255);
 }
 
 #hard-skill-ul-container-3 {
   display: flex;
   flex-wrap: wrap;
-  background-color: cornflowerblue;
+  background-color: rgb(99, 146, 233);
   border-radius: 30px;
   padding: 20px;
   justify-content: center;
+  box-shadow: 0px 0px 30px rgb(99, 146, 233);
 }
 
 #hard-skill-ul-container-3 li {
@@ -219,10 +239,44 @@ body {
 
 .sub-title {
   font-size: 35px;
+  color: white;
+}
+
+#my-projects-title {
+  display: flex;
+  margin-top: 30px;
+}
+
+#my-projects-title h2 {
+  color: white;
+}
+
+#my-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: rgb(58, 110, 221);
+  padding: 10px 20px 20px 20px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 174, 255);
+  box-shadow: 0px 0px 25px rgb(58, 110, 221);
+}
+
+.projects-container h3 {
+  margin-bottom: 10px;
+  color: white;
 }
 
 .projects-container img {
-  width: 300px;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
 }
 
 .external-link {
@@ -230,7 +284,8 @@ body {
 }
 
 footer {
-  margin: 10px 0 10px;
+  margin: 60px 0 10px;
   display: flex;
   justify-content: center;
+  color: white;
 }
