@@ -2,6 +2,14 @@
   margin: 0 auto;
 }
 
+#nav-list {
+  list-style: none;
+}
+
+.nav-icons {
+  width: 50px;
+}
+
 #presentation {
   display: flex;
   justify-content: center;
@@ -32,4 +40,22 @@
 .hard-skills-li {
   list-style: none;
   font-size: 70px;
+}
+
+.projects-container img {
+  width: 300px;
+}
+
+#contacts li {
+  list-style: none;
+}
+
+.external-link {
+  width: 60px;
+}
+
+footer {
+  margin: 10px 0 10px;
+  display: flex;
+  justify-content: center;
 }
