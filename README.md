@@ -48,3 +48,4 @@
 - New contact links;
 - Better organization;
 - Adds a new list: My Projects.
+
