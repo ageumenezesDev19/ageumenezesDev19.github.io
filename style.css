@@ -63,7 +63,7 @@ main {
 /* Finish adding style to navigation links. ---------------------------------------------------------------- */
 
 #home-link, #about-me-link {
-  color: black !important;
+  color: none !important;
 }
 
 #presentation {
