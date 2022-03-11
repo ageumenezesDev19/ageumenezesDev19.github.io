@@ -62,8 +62,15 @@ main {
 }
 /* Finish adding style to navigation links. ---------------------------------------------------------------- */
 
-#home-link, #about-me-link {
-  color: none !important;
+#home-link {
+  width: 1px;
+  height: 1px;
+}
+
+#about-me-link {
+  margin-bottom: 60px;
+  width: 5px;
+  height: 5px;
 }
 
 #presentation {
@@ -123,10 +130,6 @@ main {
   animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
 }
 /* Animation; font: https://pt.stackoverflow.com/questions/113029/como-fazer-ao-fim-de-um-tempo-a-cor-de-uma-div-mudar/113056 */
-
-#about-me-link {
-  margin-bottom: 60px;
-}
 
 #contacts {
   width: 300px;
