@@ -170,6 +170,11 @@ main {
   padding: 5px;
 }
 /* My Links: Add hover and active: ---------------------------------------------------------------------- */
+
+#linkedin-icon {
+  transition: box-shadow 0.3s;
+}
+
 #linkedin-icon:hover {
   box-shadow: 0px 0px 25px rgb(0, 76, 255);
 }
@@ -177,6 +182,10 @@ main {
 #linkedin-icon:active {
   border: 4px solid rgb(0, 76, 255);
   padding: 2px;
+}
+
+#github-icon {
+  transition: box-shadow 0.3s;
 }
 
 #github-icon:hover {
@@ -188,6 +197,10 @@ main {
   padding: 2px;
 }
 
+#gmail-icon {
+  transition: box-shadow 0.3s;
+}
+
 #gmail-icon:hover {
   box-shadow: 0px 0px 25px rgb(255, 0, 0);
 }
@@ -195,6 +208,10 @@ main {
 #gmail-icon:active {
   border: 4px solid rgb(255, 60, 0);
   padding: 2px;
+}
+
+#whatsapp-icon {
+  transition: box-shadow 0.3s;
 }
 
 #whatsapp-icon:hover {
@@ -206,6 +223,10 @@ main {
   padding: 2px; 
 }
 
+#trybe-icon {
+  transition: box-shadow 0.3s;
+}
+
 #trybe-icon:hover {
   box-shadow: 0px 0px 25px rgb(0, 255, 98);
 }
@@ -213,6 +234,10 @@ main {
 #trybe-icon:active {
   border: 4px solid rgb(0, 255, 76);
   padding: 2px;
+}
+
+#telegram-icon {
+  transition: box-shadow 0.3s;
 }
 
 #telegram-icon:hover {
@@ -554,6 +579,11 @@ footer {
   #about-me p {
     font-size: 20px;
   }
+
+  .projects-btn-demo {
+    margin-left: 10px;
+  }
+  
 }
 
 @media only screen and (max-width: 368px) {
@@ -572,7 +602,7 @@ footer {
   }
 
   .projects-btn {
-    padding: 3 10px 10px;
+    padding: 0 60px 5px;
     margin-top: 10px;
     font-size: 20px;
   }
@@ -627,5 +657,13 @@ footer {
 
   #about-me {
     margin: 0 0 60px;
+  }
+
+  .projects-btn-demo {
+    margin-left: 0;
+  }
+
+  .projects-btn-in-div {
+    border-bottom: 2px solid #56ffda;
   }
 }
