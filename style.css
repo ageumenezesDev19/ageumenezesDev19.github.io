@@ -47,9 +47,12 @@ main {
   border-radius: 0 24px 24px 0;
 }
 
+#nav-list li {
+  transition: background 0.5s;
+}
+
 #nav-list li:hover {
   background: rgba(155, 155, 155, 0.5);
-  transition: background 0.5s;
 }
 
 #nav-list li:active {
@@ -128,8 +131,13 @@ main {
   border-radius: 30px;
   border: 2px solid rgb(82, 177, 255);
   animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
+  transition: animation 1s;
 }
 /* Animation; font: https://pt.stackoverflow.com/questions/113029/como-fazer-ao-fim-de-um-tempo-a-cor-de-uma-div-mudar/113056 */
+
+#my-main-img:hover {
+  animation: changes-shadow-color 3s cubic-bezier(.17,.67,.83,.67) infinite;
+}
 
 #contacts {
   width: 300px;
@@ -162,6 +170,11 @@ main {
   padding: 5px;
 }
 /* My Links: Add hover and active: ---------------------------------------------------------------------- */
+
+#linkedin-icon {
+  transition: box-shadow 0.3s;
+}
+
 #linkedin-icon:hover {
   box-shadow: 0px 0px 25px rgb(0, 76, 255);
 }
@@ -169,6 +182,10 @@ main {
 #linkedin-icon:active {
   border: 4px solid rgb(0, 76, 255);
   padding: 2px;
+}
+
+#github-icon {
+  transition: box-shadow 0.3s;
 }
 
 #github-icon:hover {
@@ -180,6 +197,10 @@ main {
   padding: 2px;
 }
 
+#gmail-icon {
+  transition: box-shadow 0.3s;
+}
+
 #gmail-icon:hover {
   box-shadow: 0px 0px 25px rgb(255, 0, 0);
 }
@@ -187,6 +208,10 @@ main {
 #gmail-icon:active {
   border: 4px solid rgb(255, 60, 0);
   padding: 2px;
+}
+
+#whatsapp-icon {
+  transition: box-shadow 0.3s;
 }
 
 #whatsapp-icon:hover {
@@ -198,6 +223,10 @@ main {
   padding: 2px; 
 }
 
+#trybe-icon {
+  transition: box-shadow 0.3s;
+}
+
 #trybe-icon:hover {
   box-shadow: 0px 0px 25px rgb(0, 255, 98);
 }
@@ -205,6 +234,10 @@ main {
 #trybe-icon:active {
   border: 4px solid rgb(0, 255, 76);
   padding: 2px;
+}
+
+#telegram-icon {
+  transition: box-shadow 0.3s;
 }
 
 #telegram-icon:hover {
@@ -405,6 +438,13 @@ main {
   border-radius: 30px;
   border: 2px solid rgb(0, 174, 255);
   box-shadow: 0px 0px 25px rgb(58, 110, 221);
+  transition: box-shadow 1s;
+  transition: margin 1s;
+}
+
+.projects-container:hover {
+  box-shadow: 0px 0px 40px rgb(97, 147, 255);
+  margin: 17.5px;
 }
 
 .projects-container h3 {
@@ -432,6 +472,38 @@ main {
   font-weight: 500;
   font-style: italic;
   font-size: 25px;
+}
+
+.projects-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.projects-btn-demo {
+  padding: 0 30px 5px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  background: #00ffc8;
+  margin-top: 10px;
+  font-family: eurostile,sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 20px;
+  box-shadow: 0 0 0px rgb(0, 255, 85);
+  transition: box-shadow 0.5s;
+}
+
+.projects-btn-demo:hover {
+  box-shadow: 0 0 10px rgb(0, 255, 149);
+}
+
+.projects-btn-demo:active {
+  box-shadow: 0 0 15px #56ffda;
+  background: #45ffd7;
+  transition: box-shadow 0s;
 }
 
 .projects-btn:hover {
@@ -507,6 +579,11 @@ footer {
   #about-me p {
     font-size: 20px;
   }
+
+  .projects-btn-demo {
+    margin-left: 10px;
+  }
+  
 }
 
 @media only screen and (max-width: 368px) {
@@ -525,7 +602,7 @@ footer {
   }
 
   .projects-btn {
-    padding: 3 10px 10px;
+    padding: 0 60px 5px;
     margin-top: 10px;
     font-size: 20px;
   }
@@ -580,5 +657,13 @@ footer {
 
   #about-me {
     margin: 0 0 60px;
+  }
+
+  .projects-btn-demo {
+    margin-left: 0;
+  }
+
+  .projects-btn-in-div {
+    border-bottom: 2px solid #56ffda;
   }
 }
