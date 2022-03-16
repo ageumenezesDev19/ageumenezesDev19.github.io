@@ -6,6 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */
+
 body {
   background: black;
 }
