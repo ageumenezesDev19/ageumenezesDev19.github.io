@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: black;
 }
