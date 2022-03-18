@@ -1,0 +1,23 @@
+{
+  "name": "ageumenezesdev19.github.io",
+  "version": "1.0.0",
+  "description": "#",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ageumenezesDev19/ageumenezesDev19.github.io.git"
+  },
+  "keywords": [],
+  "author": "Ageu Menezes Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ageumenezesDev19/ageumenezesDev19.github.io/issues"
+  },
+  "homepage": "https://github.com/ageumenezesDev19/ageumenezesDev19.github.io#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
