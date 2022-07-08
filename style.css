@@ -229,17 +229,19 @@ main {
   padding: 2px; 
 }
 
-#trybe-icon {
+#cataline-icon {
   transition: box-shadow 0.3s;
+  background-color: black;
+  padding: 15px;
 }
 
-#trybe-icon:hover {
-  box-shadow: 0px 0px 25px rgb(0, 255, 98);
+#cataline-icon:hover {
+  box-shadow: 0px 0px 25px rgb(0, 110, 255);
 }
 
-#trybe-icon:active {
-  border: 4px solid rgb(0, 255, 76);
-  padding: 2px;
+#cataline-icon:active {
+  border: 4px solid rgb(0, 110, 255);
+  padding: 15px;
 }
 
 #telegram-icon {
