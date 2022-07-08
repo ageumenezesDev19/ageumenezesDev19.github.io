@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "jest",
-    "build": "[my-framework] build --output public"
+    "build": "build --output public"
   },
   "repository": {
     "type": "git",
